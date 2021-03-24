@@ -1,0 +1,50 @@
+.nav_bar {
+  background-color: rgb(63, 62, 63);
+  height: 50px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+body {
+    font-family: Arial;
+}
+
+.search_form{
+  float: right; 
+  padding-right: 20px;
+  }
+
+.page_header{
+  float:left;
+  margin:0;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.login {
+    text-align: center;
+}
+
+.login_form {
+  width: 50%;
+  margin: auto;
+  text-align:left;
+}
+.login_input{
+  width: 100%;
+  display: inline-block;
+}
+
+.search_Button{
+  border-color: orange;
+  color:orange;
+  border-radius: 6px;
+  height: 40px;
+  width: 80px;
+  background-color: rgb(63, 62, 63);
+}
+
+#Search {
+  height: 40px;
+  border-radius: 4px;

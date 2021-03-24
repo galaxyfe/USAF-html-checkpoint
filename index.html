@@ -5,25 +5,28 @@
         <link rel="stylesheet" href="./GMDB.css">
     </head>
     <body>
-      <nav>
-        <h1>GMDB</h1>
-        <a href="./movies.html">Home</a>
-        <a href="./index.html">Login</a>
-        
+      <nav class = "nav_bar">
+        <h3 class ="page_header">GMDB</h3>
+        <a href="./movies.html" class="link">Home</a>
+        <a href="./index.html" class ="link">Login</a>
+        <form class = "search_form">
+            <input type="search" id="Search" placeholder="Search"> 
+            <button class = "search_Button">Search</button>
+        </form>
       </nav>
-
-        <form>
-        <h1>Login</h1>
-        <div class = "form-row">
-          <label for="email">Email:</label>
-          <input type="text" id="email">
+      
+      <h1 class="login">Login</h1>
+      <form class = "login_form">
+        <div class = "form_row">
+            <label for="email">Email:</label>
+            <input type="text" id="email" class="login_input">
         </div>
-        <div class = "form-row">
-          <label for="password">Password:</label>
-          <input type="text" id="password">
+        <div class = "form_row">
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="login_input">
         </div>
         <button class = "login_Button">Login</button>
-        </form>
+      </form>
 
 
     </body>

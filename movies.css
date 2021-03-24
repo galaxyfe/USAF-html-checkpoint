@@ -1,0 +1,56 @@
+.nav_bar {
+  background-color: rgb(63, 62, 63);
+  height: 50px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+  
+  
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+body {
+  font-family: Arial;
+}
+
+#Search {
+  height: 40px;
+  border-radius: 4px;
+  
+}
+.search_form{
+float: right; 
+padding-right: 20px;
+}
+
+.page_header{
+float:left;
+margin:0;
+padding-right: 10px;
+padding-left: 20px;
+}
+
+.grid-wrapper{
+  display:grid;
+  width: 90%;
+  grid-template: repeat(3, 1fr)/repeat(4, 1fr);
+}
+
+img{
+  width: 50%;
+  height: auto;
+}
+
+.search_Button{
+  border-color: orange;
+  color:orange;
+  border-radius: 6px;
+  height: 40px;
+  width: 80px;
+  background-color: rgb(63, 62, 63);
+}
